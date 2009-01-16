@@ -201,7 +201,7 @@ incompatibility are:
 
   Example:
 
-    xml = Builder::Markup.new
+    xml = Builder::XmlMarkup.new
     xml.sample("Iñtërnâtiônàl")
     xml.target!  =>
       "<sample>I&#241;t&#235;rn&#226;ti&#244;n&#224;l</sample>"
@@ -211,7 +211,7 @@ incompatibility are:
   "UTF8".
 
     $KCODE = 'UTF8'
-    xml = Builder::Markup.new
+    xml = Builder::XmlMarkup.new
     xml.instruct!(:xml, :encoding => "UTF-8")
     xml.sample("Iñtërnâtiônàl")
     xml.target!  =>
