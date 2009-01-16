@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name    = 'builder'
-  s.version = '2.2.0'
+  s.version = '2.2.1'
   s.date    = '2009-01-16'
   
   s.summary = "Builders for MarkUp."
