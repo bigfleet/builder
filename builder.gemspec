@@ -14,6 +14,7 @@ simple to do.  Currently the following builder objects are supported:
   s.authors  = ['Jim Weirich']
   s.email    = 'jim@weirichhouse.org'
   s.homepage = 'http://builder.rubyforge.org/'
+  s.rubyforge_project = "builder"
   
   s.has_rdoc = true
   s.rdoc_options = ['-T doc/jamis.rb', '-t "Builder -- Easy XML Building"']
